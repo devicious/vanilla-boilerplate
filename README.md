@@ -1,2 +1,3 @@
-# vanilla-boilerplate
-Vanilla FE Boilerplate for static HTML/CSS/TS Development supported by Vite.
+# Vanilla FE Boilerplate
+
+Support for: HTML Templates, SCSS, TS
