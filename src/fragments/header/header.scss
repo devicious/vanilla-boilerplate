@@ -1,0 +1,21 @@
+header {
+    margin-bottom: 2em;
+    color: var(--text-primary);
+
+    .content {
+        height: 120px;
+        background: var(--bg-primary);
+        padding: 1em;
+        display: flex;
+        align-items: center;
+
+        .logo {
+            max-height: 100%;
+            filter: invert(1);
+        }
+
+        .version {
+            font-weight: bold;
+        }
+    }
+}

@@ -1,2 +1,2 @@
 import './scss/main.scss';
-import './components/components'
+import './fragments/components'
