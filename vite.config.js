@@ -26,7 +26,8 @@ export default defineConfig(({ command, mode }) => {
             babel(),
             handlebars({
                 context: {
-                    version: `v.${env.VERSION}`
+                    appName: env.APP_NAME,
+                    version: env.VERSION
                 },
                 reloadOnPartialChange: true,
                 partialDirectory: [
