@@ -18,7 +18,7 @@
     "@types/node": "^18.13.0",
     "aem-clientlib-generator": "^1.8.0",
     "aemsync": "^5.0.4",
-    "babel": "^6.23.0",
+    "babel-cli": "^6.26.0",
     "postcss": "^8.4.21",
     "postcss-preset-env": "^8.0.1",
     "prettier": "^2.8.4",
@@ -27,6 +27,5 @@
     "vite": "^4.1.0",
     "vite-plugin-handlebars": "^1.6.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
