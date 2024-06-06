@@ -1,4 +1,19 @@
 :root {
-  --bg-primary: #0d6efd;
-  --text-primary: #fff;
+
+  --h1: var(--theme-h1, 4em);
+  --h2: var(--theme-h2, 3.5em);
+  --h3: var(--theme-h3, 2.5em);
+  --h4: var(--theme-h4, 2em);
+  --h5: var(--theme-h5, 1.75em);
+  --h6: var(--theme-h6, 1.5em);
+
+  @include media-breakpoint-down(lg) {
+    --h1: var(--theme-h1-m, 2.625em);
+    --h2: var(--theme-h2-m, 2.5em);
+    --h3: var(--theme-h3-m, 1.875em);
+    --h4: var(--theme-h4-m, 1.75em);
+    --h5: var(--theme-h5-m, 1.5em);
+    --h6: var(--theme-h6-m, 1.375em);
+  }
+
 }

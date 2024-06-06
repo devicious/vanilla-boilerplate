@@ -1,1 +1,0 @@
-This directory will contain temporary assets that will be cleared later on during FE integration phase

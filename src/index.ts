@@ -1,2 +1,4 @@
 import './scss/main.scss';
-import './fragments/components'
+import { Example } from './components/components';
+
+console.log(Example());

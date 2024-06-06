@@ -1,0 +1,20 @@
+:root {
+  --primary: var(--theme-primary, #006EDB); /* Bright blue */
+  --secondary: var(--theme-secondary, #0059B2); /* Medium blue */
+  --tertiary: var(--theme-tertiary, #003366); /* Dark blue */
+  --quaternary: var(--theme-quaternary, #1B558E); /* Blue with a hint of green */
+
+  --text-primary: var(--theme-text-primary, #1A1A1A); /* Almost black */
+  --text-secondary: var(--theme-text-secondary, #FFFFFF); /* White */
+  --text-tertiary: var(--theme-text-tertiary, #5C6F82); /* Grayish blue */
+  --text-accent: var(--theme-text-accent, #17324D); /* Dark grayish blue */
+  --text-hover: var(--theme-text-hover, #2F475E); /* Medium dark blue */
+  --text-active: var(--theme-text-active, #003063); /* Dark blue */
+  --text-inactive: var(--theme-text-inactive, #647182); /* Grayish blue */
+
+  --bg-primary: var(--theme-bg-primary, #001A33); /* Very dark blue */
+  --bg-secondary: var(--theme-bg-secondary, #0066CC); /* Bright blue */
+  --bg-tertiary: var(--theme-bg-tertiary, #FFFFFF); /* White */
+  --bg-accent: var(--theme-bg-accent, #F0F6FC); /* Very light blue */
+  --focus-color: var(--theme-focus-color, #e28e32); /* Orange */
+}
